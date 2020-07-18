@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>TITLE</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.png" type="image/png">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<!-- @@include('_header.html') -->
+
+	<!-- <div class="menu">
+		<div class="menu__logo">LOGO</div>
+		<nav class="menu__wrapper">
+			<a href="#scroll_a" class="menu__link">Чем могу помочь</a>
+			<a href="#scroll_b" class="menu__link">Мои работы</a>
+			<a href="#scroll_c" class="menu__link">Обо мне</a>
+			<a href="#scroll_d" class="menu__link">Контакты</a>
+		</nav>
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div> -->
+
+	<div class="overlay-modal" id="overlay_modal">
+		<div class="modal-main" id="feedback_modal">
+			<div class="modal-main__close">&times;</div>
+			<div class="modal-main__subtitle">Просто заполните форму</div>
+			<div class="modal-main__descr">и мы перезвоним вам в течении 10 минут</div>
+			<form id="form_id" action="#" class="feed__form-modal">
+				<input name="name" required type="text" placeholder="Ваше имя">
+				<input name="phone" required type="tel" placeholder="Ваш телефон">
+				<input name="email" required type="email" placeholder="Ваш E-mail">
+				<textarea name="text_form" required type="text" placeholder="Ваше сообщение..."></textarea>
+				<button class="button__modal" id="button_modal">Отправить</button>
+			</form>
+		</div>
+
+		<div class="modal-main modal-main_mini" id="modal_thankyou">
+			<div class="modal-main__close">&times;</div>
+			<div class="modal-main__subtitle">Спасибо за вашу заявку!</div>
+			<div class="modal-main__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+		</div>
+		<div class="modal-main modal-main_mini" id="modal_error">
+			<div class="modal-main__close">&times;</div>
+			<div class="modal-main__subtitle">Ошибка!</div>
+			<div class="modal-main__descr">Что-то пошло не так, попробуйте ещё раз!</div>
+		</div>
+	</div>
+
+	<!-- <nav>
+		<a class="pageup" href="#scroll_up">
+			<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas"
+				data-icon="chevron-circle-up" class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img"
+				viewBox="0 0 512 512">
+				<path
+					d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"
+					fill="#4985FF" /></svg>
+		</a>
+	</nav> -->
+
+	<!-- <script src="js/index.js"></script> -->
+</body>
+
+</html>
