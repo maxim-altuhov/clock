@@ -4,8 +4,8 @@ var path = require('path'),
 	webpack = require("webpack");
 
 module.exports = {
-	// mode: 'production',
-	mode: 'development',
+	mode: 'production',
+	// mode: 'development',
 	entry: './#src/js/main_script/script.js',
 	output: {
 		filename: 'index.min.js',
@@ -15,7 +15,7 @@ module.exports = {
 	watch: true,
 
 	// переключить при выгрузке в продакшн
-	devtool: "source-map",
+	// devtool: "source-map",
 
 	module: {
 		rules: [{
