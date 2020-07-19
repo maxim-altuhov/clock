@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	backface-visibility: hidden;
+	outline: 1px solid transparent;
 }
 
 body {
@@ -122,5 +124,4 @@ body {
 	@media (max-width: 400px) {
 		height: 125px;
 	}
-
 }
