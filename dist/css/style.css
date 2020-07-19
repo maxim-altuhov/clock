@@ -90,7 +90,7 @@ body {
 .hr::before {
   content: '';
   position: absolute;
-  background-color: #7d4eb9;
+  background-color: #662fad;
   width: 8px;
   height: 80px;
   z-index: 20;
@@ -100,7 +100,7 @@ body {
 .mn::before {
   content: '';
   position: absolute;
-  background-color: #7d4eb9;
+  background-color: #6b39ac;
   width: 4px;
   height: 90px;
   z-index: 21;
