@@ -20,6 +20,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
+  height: 500px;
 }
 
 .clock {
@@ -43,7 +44,7 @@ body {
 }
 
 .clock::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 15px;
@@ -91,7 +92,7 @@ body {
 }
 
 .hr::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #662fad;
   width: 8px;
@@ -101,7 +102,7 @@ body {
 }
 
 .mn::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #6b39ac;
   width: 4px;
@@ -111,7 +112,7 @@ body {
 }
 
 .sc::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #9f85c1;
   width: 2px;
